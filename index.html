@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Library Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Library Management System</h1>
+
+    <h2>Add User</h2>
+    <input id="username" placeholder="User Name">
+    <button onclick="addUser()">Add User</button>
+    <div id="users"></div>
+
+    <h2>Add Book</h2>
+    <input id="bookname" placeholder="Book Name">
+    <input id="author" placeholder="Author">
+    <button onclick="addBook()">Add Book</button>
+
+    <h2>Available Books</h2>
+    <div id="books"></div>
+
+    <h2>Withdraw Book</h2>
+    <input id="uid" placeholder="User ID">
+    <input id="bid" placeholder="Book ID">
+    <button onclick="withdraw()">Withdraw</button>
+
+    <h2>Withdrawal and Due History</h2>
+    <div id="history"></div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Student"
+    }
+  ],
+  "books": [
+    {
+      "id": "1",
+      "name": "JavaScript",
+      "author": "John"
+    },
+    {
+      "id": "2",
+      "name": "Python",
+      "author": "David"
+    },
+    {
+      "name": "Novel",
+      "author": "Akshay",
+      "id": "aUg8eTzkIQo"
+    }
+  ],
+  "history": [],
+  "$schema": "./node_modules/json-server/schema.json"
+}
